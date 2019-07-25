@@ -43,3 +43,4 @@ C:\Projects\Biking\Biking\obj\Debug\netcoreapp2.1\Razor\Views\Routes\ElmCreekLoo
 C:\Projects\Biking\Biking\obj\Debug\netcoreapp2.1\Razor\Views\Routes\PriorLakeLoop.g.cshtml.cs
 C:\Projects\Biking\Biking\obj\Debug\netcoreapp2.1\Razor\Views\Routes\MinnehahaLoop.g.cshtml.cs
 C:\Projects\Biking\Biking\obj\Debug\netcoreapp2.1\Razor\Views\Routes\HopkinsStPaulLoop.g.cshtml.cs
+C:\Projects\Biking\Biking\obj\Debug\netcoreapp2.1\Razor\Views\Routes\BloomingtonFerry.g.cshtml.cs

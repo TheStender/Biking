@@ -8,7 +8,37 @@ namespace Biking.Controllers
 {
     public class RoutesController : Controller
     {
-        public IActionResult ShakopeeLoop()
+        public IActionResult BloomingtonFerry()
+        {
+            return View();
+        }
+
+        public IActionResult CarverLakeLollipop()
+        {
+            return View();
+        }
+
+        public IActionResult ChaskaLoop()
+        {
+            return View();
+        }
+
+        public IActionResult ChaskaRiverLoop()
+        {
+            return View();
+        }
+
+        public IActionResult ElmCreekLoop()
+        {
+            return View();
+        }
+
+        public IActionResult HopkinsStPaulLoop()
+        {
+            return View();
+        }
+
+        public IActionResult MinnehahaLoop()
         {
             return View();
         }
@@ -17,5 +47,32 @@ namespace Biking.Controllers
         {
             return View();
         }
+
+        public IActionResult PioneerLoop()
+        {
+            return View();
+        }
+
+        public IActionResult PriorLakeLoop()
+        {
+            return View();
+        }
+
+        public IActionResult ShakopeeLoop()
+        {
+            return View();
+        }
+
+        public IActionResult SouthbridgeLoop()
+        {
+            return View();
+        }
+
+        public IActionResult Stillwater()
+        {
+            return View();
+        }
+
+
     }
 }
