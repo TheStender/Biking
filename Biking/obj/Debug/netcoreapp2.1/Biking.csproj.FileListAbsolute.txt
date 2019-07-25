@@ -33,3 +33,13 @@ C:\Projects\Biking\Biking\obj\Debug\netcoreapp2.1\Razor\Views\Home\Routes.g.csht
 C:\Projects\Biking\Biking\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
 C:\Projects\Biking\Biking\obj\Debug\netcoreapp2.1\Razor\Views\Routes\ShakopeeLoop.g.cshtml.cs
 C:\Projects\Biking\Biking\obj\Debug\netcoreapp2.1\Razor\Views\Routes\MinnetonkaTrail.g.cshtml.cs
+C:\Projects\Biking\Biking\obj\Debug\netcoreapp2.1\Razor\Views\Routes\ChaskaRiverLoop.g.cshtml.cs
+C:\Projects\Biking\Biking\obj\Debug\netcoreapp2.1\Razor\Views\Routes\ChaskaLoop.g.cshtml.cs
+C:\Projects\Biking\Biking\obj\Debug\netcoreapp2.1\Razor\Views\Routes\PioneerLoop.g.cshtml.cs
+C:\Projects\Biking\Biking\obj\Debug\netcoreapp2.1\Razor\Views\Routes\Stillwater.g.cshtml.cs
+C:\Projects\Biking\Biking\obj\Debug\netcoreapp2.1\Razor\Views\Routes\CarverLakeLollipop.g.cshtml.cs
+C:\Projects\Biking\Biking\obj\Debug\netcoreapp2.1\Razor\Views\Routes\SouthbridgeLoop.g.cshtml.cs
+C:\Projects\Biking\Biking\obj\Debug\netcoreapp2.1\Razor\Views\Routes\ElmCreekLoop.g.cshtml.cs
+C:\Projects\Biking\Biking\obj\Debug\netcoreapp2.1\Razor\Views\Routes\PriorLakeLoop.g.cshtml.cs
+C:\Projects\Biking\Biking\obj\Debug\netcoreapp2.1\Razor\Views\Routes\MinnehahaLoop.g.cshtml.cs
+C:\Projects\Biking\Biking\obj\Debug\netcoreapp2.1\Razor\Views\Routes\HopkinsStPaulLoop.g.cshtml.cs
