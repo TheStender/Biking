@@ -12,5 +12,10 @@ namespace Biking.Controllers
         {
             return View();
         }
+
+        public IActionResult MinnetonkaTrail()
+        {
+            return View();
+        }
     }
 }
