@@ -31,3 +31,4 @@ C:\Projects\Biking\Biking\obj\Debug\netcoreapp2.1\Razor\Views\Home\Training.g.cs
 C:\Projects\Biking\Biking\obj\Debug\netcoreapp2.1\Razor\Views\Home\Blog.g.cshtml.cs
 C:\Projects\Biking\Biking\obj\Debug\netcoreapp2.1\Razor\Views\Home\Routes.g.cshtml.cs
 C:\Projects\Biking\Biking\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Projects\Biking\Biking\obj\Debug\netcoreapp2.1\Razor\Views\Routes\ShakopeeLoop.g.cshtml.cs
