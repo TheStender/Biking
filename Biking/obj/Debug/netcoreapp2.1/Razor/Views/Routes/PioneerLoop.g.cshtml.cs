@@ -63,7 +63,7 @@ using Biking.Models;
             WriteLiteral("\r\n<h2>Pioneer Trail Loop - 27.5 Miles (25 Miles for Alternate)</h2>\r\n\r\n");
             EndContext();
             BeginContext(120, 46, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "287cff4806ab44c9b9c89a5c8e928e8e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "790929a1c88942998ed60ce775d73b6d", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

@@ -77,7 +77,7 @@ using Biking.Models;
             WriteLiteral("\r\n<h2>Routes</h2>\r\n\r\n<h3>5-10 Miles</h3>\r\n");
             EndContext();
             BeginContext(86, 94, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "63624c06c550493d9393a55a7fcaeb16", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fc1948a6ba4043e49f2092c86e259993", async() => {
                 BeginContext(151, 25, true);
                 WriteLiteral("Shakopee Loop - 9.5 Miles");
                 EndContext();
@@ -103,7 +103,7 @@ using Biking.Models;
             WriteLiteral("\r\n\r\n<h3>10-20 Miles</h3>\r\n");
             EndContext();
             BeginContext(206, 89, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b6a06259e10841aea6642ac06be22b0d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1270ef32871b406b92c24d7082c01866", async() => {
                 BeginContext(269, 22, true);
                 WriteLiteral("Chaska Loop - 16 Miles");
                 EndContext();
@@ -129,7 +129,7 @@ using Biking.Models;
             WriteLiteral("<br />\r\n");
             EndContext();
             BeginContext(303, 101, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "42c1d466f95a4a92ab4b282e2f46a615", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "14e05245aa7d4455b93b3f89755060ac", async() => {
                 BeginContext(371, 29, true);
                 WriteLiteral("Southbridge Loop - 14.5 Miles");
                 EndContext();
@@ -155,7 +155,7 @@ using Biking.Models;
             WriteLiteral("<br />\r\n");
             EndContext();
             BeginContext(412, 102, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dc56135db1764b258eb072a1e896ad89", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7611b7aa4f2e43ffa8d66eac3307dc0a", async() => {
                 BeginContext(480, 30, true);
                 WriteLiteral("Chaska River Loop - 10.5 Miles");
                 EndContext();
@@ -181,7 +181,7 @@ using Biking.Models;
             WriteLiteral("<br />\r\n");
             EndContext();
             BeginContext(522, 94, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7138f21c820449218beb67c880359aa9", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4d300b470581469b9eed5deae1d53d66", async() => {
                 BeginContext(587, 25, true);
                 WriteLiteral("Elm Creek Loop - 15 Miles");
                 EndContext();
@@ -207,7 +207,7 @@ using Biking.Models;
             WriteLiteral("<br />\r\n");
             EndContext();
             BeginContext(624, 114, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f6a9655446e84e68a682b1d7c3781528", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6fa26f38ca884a658d48f44fc94f4905", async() => {
                 BeginContext(693, 41, true);
                 WriteLiteral("Bloomington Ferry Out and Back - 14 Miles");
                 EndContext();
@@ -233,7 +233,7 @@ using Biking.Models;
             WriteLiteral("<br />\r\n\r\n\r\n<h3>20-30 Miles</h3>\r\n");
             EndContext();
             BeginContext(772, 96, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2a8f43e32b714553903c9ef2448c909c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e28cfc3e35da436ebbf6015a6f91cfc4", async() => {
                 BeginContext(838, 26, true);
                 WriteLiteral("Prior Lake Loop - 25 Miles");
                 EndContext();
@@ -259,7 +259,7 @@ using Biking.Models;
             WriteLiteral("<br />\r\n");
             EndContext();
             BeginContext(876, 106, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c22e8f9fffdb4b1f8ef7690396aa34f9", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "36e2fb80d33f4ea986fe71297de426c1", async() => {
                 BeginContext(947, 31, true);
                 WriteLiteral("Carver Park Lollipop - 32 Miles");
                 EndContext();
@@ -285,7 +285,7 @@ using Biking.Models;
             WriteLiteral("<br />\r\n");
             EndContext();
             BeginContext(990, 119, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "10409ababd874bf8829e8df2fd666f1b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8926314c360342b296f7af971a433e4d", async() => {
                 BeginContext(1054, 51, true);
                 WriteLiteral("Pioneer Trail Loop - 27.5 Miles (25 Mile Alternate)");
                 EndContext();
@@ -311,7 +311,7 @@ using Biking.Models;
             WriteLiteral("<br />\r\n\r\n\r\n\r\n<h3>30-50 Miles</h3>\r\n");
             EndContext();
             BeginContext(1145, 117, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c9165bfbfc134a489fa78961c7d47db2", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d1d1ac5a17fe4c1baf9ef4fc211fc520", async() => {
                 BeginContext(1213, 45, true);
                 WriteLiteral("Lake Minnetonka Trail Out and Back - 33 Miles");
                 EndContext();
@@ -337,7 +337,7 @@ using Biking.Models;
             WriteLiteral("<br />\r\n");
             EndContext();
             BeginContext(1270, 106, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a8de85bfe0114196be61542808084fa9", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fc742439588f4e34a327bae11608fef2", async() => {
                 BeginContext(1340, 32, true);
                 WriteLiteral("Hopkins/St. Paul Loop - 46 Miles");
                 EndContext();
@@ -363,7 +363,7 @@ using Biking.Models;
             WriteLiteral("<br />\r\n");
             EndContext();
             BeginContext(1384, 115, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a3d3f86612345ad96d1f2483ccd834f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3677ad3c3ca64a76892a277e6fc9c9eb", async() => {
                 BeginContext(1450, 45, true);
                 WriteLiteral("Minnehaha Loop - 32 Miles (25 Mile Alternate)");
                 EndContext();
@@ -389,7 +389,7 @@ using Biking.Models;
             WriteLiteral("<br />\r\n\r\n<h3>50-100 Miles</h3>\r\n");
             EndContext();
             BeginContext(1532, 88, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "25f16e1231224b79bea57a8a55afb724", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d94cc669aa6d429d9458f56879ac4025", async() => {
                 BeginContext(1595, 21, true);
                 WriteLiteral("Stillwater - 55 Miles");
                 EndContext();
@@ -415,7 +415,7 @@ using Biking.Models;
             WriteLiteral("<br />\r\n\r\n\r\n<h3>100+ Miles</h3>\r\n");
             EndContext();
             BeginContext(1653, 102, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "032fc1057aa849f9b78cefe6acc3b3a2", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c560ac3e4cbc4323bfff253ff73dd307", async() => {
                 BeginContext(1716, 35, true);
                 WriteLiteral("Stillwater Out and Back - 110 Miles");
                 EndContext();

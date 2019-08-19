@@ -63,7 +63,7 @@ using Biking.Models;
             WriteLiteral("\r\n<h2>Chaska Loop - 16 Miles</h2>\r\n\r\n");
             EndContext();
             BeginContext(85, 45, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "58835982cdda4d42b4d8b3eb030f9cb5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "620f0abd049f407cb52762146ed504e6", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

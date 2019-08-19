@@ -3,6 +3,40 @@
     ViewData["Title"] = "Training";
 }
 
+@{ 
+    DateTime raam = new DateTime(2020, 3, 28);
+    DateTime inca = new DateTime(2020, 8, 14);
+
+    var raamCountdown = Math.Abs(Math.Floor((DateTime.Today - raam).TotalDays / 7));
+    var incaCountdown = Math.Abs(Math.Floor((DateTime.Today - inca).TotalDays / 7));
+}
+
 <h2>Training Plan</h2>
-<p>Weeks until RAAM Challenge - </p>
-<p>Weeks until Inca Divide - </p>
+<p>Weeks until RAAM Challenge - @raamCountdown</p>
+<p>Weeks until Inca Divide - @incaCountdown</p>
+
+<p>Read from Excel File?</p>
+
+<table>
+    <tr>
+        <th>Week</th>
+        <th>Day 1</th>
+        <th>Day 2</th>
+        <th>Day 3</th>
+        <th>Day 4</th>
+        <th>Day 5</th>
+        <th>Day 6</th>
+        <th>Day 7</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Long Ride</td>
+        <td>Tempo Ride</td>
+        <td>Interval Ride</td>
+        <td>Recovery Ride</td>
+        <td>Strength</td>
+        <td>Strength</td>
+        <td>Rest</td>
+    </tr>
+
+</table>
