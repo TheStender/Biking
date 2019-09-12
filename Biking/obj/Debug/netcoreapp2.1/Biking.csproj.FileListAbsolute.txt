@@ -44,3 +44,4 @@ C:\Projects\Biking\Biking\obj\Debug\netcoreapp2.1\Razor\Views\Routes\PriorLakeLo
 C:\Projects\Biking\Biking\obj\Debug\netcoreapp2.1\Razor\Views\Routes\MinnehahaLoop.g.cshtml.cs
 C:\Projects\Biking\Biking\obj\Debug\netcoreapp2.1\Razor\Views\Routes\HopkinsStPaulLoop.g.cshtml.cs
 C:\Projects\Biking\Biking\obj\Debug\netcoreapp2.1\Razor\Views\Routes\BloomingtonFerry.g.cshtml.cs
+C:\Projects\Biking\Biking\obj\Debug\netcoreapp2.1\Razor\Views\Shared\BreakArea.g.cshtml.cs

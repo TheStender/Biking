@@ -3,10 +3,13 @@
     ViewData["Title"] = "ChaskaLoop";
 }
 
+
 <h2>Chaska Loop - 16 Miles</h2>
 
 <img src="~/images/Routes/Chaska Loop.JPG" />
-
+@{
+    Html.RenderPartial("BreakArea");
+}
 <ul>
     <li>Start: Shakopee Trailhead</li>
     <li>End: Shakopee Trailhead</li>
