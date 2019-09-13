@@ -3,7 +3,7 @@
     ViewData["Title"] = "Training";
 }
 
-@{ 
+@{
     DateTime raam = new DateTime(2020, 3, 28);
     DateTime inca = new DateTime(2020, 8, 14);
 
@@ -11,32 +11,124 @@
     var incaCountdown = Math.Abs(Math.Floor((DateTime.Today - inca).TotalDays / 7));
 }
 
+@{
+    string[] weekList = new string[]
+    {
+        "Week", "Long Ride", "Tempo Ride", "Interval Ride", "Recovery Ride", "Optional Recovery Ride", "Core Workout", "Stretching", "Strength Workout"
+    };
+
+    string[,] fifteenWeekPlan = new string[,] {
+        { "1", "1:30 - 2:30", "40 - 60 minutes", "30 - 40 minutes(10 - 15 mixed)", "20 - 30 minutes", "20 - 30 minutes(optional)", "2 of 10 - 20 minutes", "3 of 10 - 20 minutes", "1 - 2 of 20 - 30 minutes(optional)" },
+        { "2", "2:00 - 3:00", "40-60 minutes", "30-40 minutes (10-15 mixed)", "20-30 minutes", "20-30 minutes (optional)", "2 of 10-20 minutes", "3 of 10-20 minutes", "1-2 of 20-30 minutes (optional)" },
+        { "3", "2:00 - 3:00", "50-75 minutes", "40-60 minutes (10-15 mixed)", "30-40 minutes", "20-30 minutes (optional)", "2 of 10-20 minutes", "3 of 10-20 minutes", "1-2 of 20-30 minutes (optional)" },
+        { "4", "2:30 - 3:30", "50-75 minutes", "40-60 minutes (15-20 mixed)", "30-40 minutes", "20-30 minutes (optional)", "2 of 10-20 minutes", "3 of 10-20 minutes", "1-2 of 20-30 minutes (optional)" },
+        { "5", "3:00 - 4:00", "60-90 minutes", "40-60 minutes (15-20 mixed)", "30-40 minutes", "20-30 minutes (optional)", "2 of 10-20 minutes", "3 of 10-20 minutes", "1-2 of 20-30 minutes (optional)" },
+        { "6", "3:30 - 4:30", "60 - 90 minutes", "40 - 60 minutes(15 - 20 mixed)", "40 - 60 minutes", "20 - 30 minutes(optional)", "2 of 10 - 20 minutes", "3 of 10 - 20 minutes", "1 - 2 of 20 - 30 minutes(optional)" },
+        { "7", "3:30 - 4:30", "60 - 90 minutes", "60 - 90 minutes(20 - 30 mixed)", "40 - 60 minutes", "20 - 30 minutes(optional)", "2 of 10 - 20 minutes", "3 of 10 - 20 minutes", "1 - 2 of 20 - 30 minutes(optional)" },
+        { "8", "1:00 - 2:00", "30 - 40 minutes", "None", "20 - 30 minutes", "20 - 30 minutes", "2 of 10 - 20 minutes", "3 of 10 - 20 minutes", "None" },
+        { "9", "2:30 - 3:30", "50-75 minutes", "40-60 minutes (10-15 mixed)", "30-40 minutes", "20-30 minutes (optional)", "2 of 10-20 minutes", "3 of 10-20 minutes", "1-2 of 20-30 minutes (optional)" },
+        { "10", "3:00 - 4:00", "60-90 minutes", "40-60 minutes (10-15 mixed)", "40-60 minutes", "20-30 minutes (optional)", "2 of 10-20 minutes", "3 of 10-20 minutes", "1-2 of 20-30 minutes (optional)" },
+        { "11", "3:30 - 4:30", "60-90 minutes", "60-90 minutes (15-20 mixed)", "40-60 minutes", "20-30 minutes (optional)", "2 of 10-20 minutes", "3 of 10-20 minutes", "1-2 of 20-30 minutes (optional)" },
+        { "12", "4:00 - 5:00", "60-90 minutes", "60-90 minutes (15-20 mixed)", "40-60 minutes", "20-30 minutes (optional)", "2 of 10-20 minutes", "3 of 10-20 minutes", "1-2 of 20-30 minutes (optional)" },
+        { "13", "4:30 - 5:30", "60-90 minutes", "60-90 minutes (20-30 mixed)", "40-60 minutes", "20-30 minutes (optional)", "2 of 10-20 minutes", "3 of 10-20 minutes", "1-2 of 20-30 minutes (optional)" },
+        { "14", "5:15 - 6:30", "60-90 minutes", "60-90 minutes (20-30 mixed)", "40-60 minutes", "20-30 minutes (optional)", "2 of 10-20 minutes", "3 of 10-20 minutes", "1-2 of 20-30 minutes (optional)" },
+        { "15", "2:30 - 3:30", "60-90 minutes", "60-90 minutes (15-20 mixed)", "40-60 minutes","20-30 minutes (optional)", "2 of 10-20 minutes", "3 of 10-20 minutes", "None" },
+        { "16", "Century", "30-40 minutes", "None","20-30 minutes", "20-30 minutes", "2 of 10-20 minutes", "3 of 10-20 minutes", "None" } };
+
+    string[,] eightWeekPlan = new string[,]
+    {
+        { "1","2:00 - 3:00","60-75 minutes","40-60 minutes (10-15 mixed)","40-60 minutes","20-30 minutes (optional)","2 of 10-20 minutes","3 of 10-20 minutes","1 of 20-30 minutes (optional)" },
+        { "2","60-90 minutes brisk (20-30 mixed)","60-75 minutes","45-60 minutes (15-20 mixed)","30-40 minutes","20-30 minutes (optional)","2 of 10-20 minutes","3 of 10-20 minutes","1 of 20-30 minutes (optional)" },
+        { "3","3:00 - 4:00","60-90 minutes","40-60 minutes (10-15 mixed)","40-60 minutes","20-30 minutes (optional)","2 of 10-20 minutes","3 of 10-20 minutes","1 of 20-30 minutes (optional)"},
+        { "4","30-45 minutes brisk (10-15 mixed)","30-45 minutes","30-45 min tempo","20-30 minutes","20-30 minutes (optional)","2 of 10-20 minutes","3 of 10-20 minutes","None"},
+        { "5","4:00 - 5:00","60-90 minutes","60-90 minutes (15-20 mixed)","40-60 minutes","20-30 minutes (optional)","2 of 10-20 minutes","3 of 10-20 minutes","1 of 20-30 minutes (optional)"},
+        { "6","60-90 minutes brisk (20-30 mixed)","60-90 minutes","60-90 minutes (15-20 mixed)","40-60 minutes","20-30 minutes (optional)","2 of 10-20 minutes","3 of 10-20 minutes","1 of 20-30 minutes (optional)" },
+        { "7","5:15 - 6:30","60-90 minutes","60-90 minutes (20-30 mixed)","40-60 minutes","20-30 minutes (optional)","2 of 10-20 minutes","3 of 10-20 minutes","1 of 20-30 minutes (optional)"},
+        { "8","2:30 - 3:30","60-90 minutes","60-90 minutes (10-15 mixed)","40-60 minutes","20-30 minutes (optional)","2 of 10-20 minutes","3 of 10-20 minutes","None"},
+        { "Century Week","Century","None","30-40 minutes (10-15 mixed)","20-30 minutes","20-30 minutes","2 of 10-20 minutes","3 of 10-20 minutes","None"}
+    };
+
+    string[,] twelveWeekPlan = new string[,]
+    {
+        { "1","6:30 - 7:15","40-60 minutes","30-45 minute tempo","40-60 minutes","20-30 minutes (optional)","2 of 10-20 minutes","3 of 10-20 minutes","1 of 20-30 minutes (optional)"},
+        { "2","3:30 - 4:30","60-90 minutes","40-60 minutes (10-15 mixed)","40-60 minutes","20-30 minutes (optional)","2 of 10-20 minutes","3 of 10-20 minutes","1 of 20-30 minutes (optional)"},
+        { "3","7:15 - 8:00","60-90 minutes","45-60 minute tempo","40-60 minutes","20-30 minutes (optional)","2 of 10-20 minutes","3 of 10-20 minutes","1 of 20-30 minutes (optional)"},
+        { "4","2:00 - 3:00","30-40 minutes","40-60 minutes (10-15 mixed)","40-60 minutes","20-30 minutes (optional)","2 of 10-20 minutes","3 of 10-20 minutes","None"},
+        { "5","8:00 - 9:00","60-90 minutes","40-60 minutes (10-15 mixed)","40-60 minutes","20-30 minutes (optional)","2 of 10-20 minutes","3 of 10-20 minutes","1 of 20-30 minutes (optional)"},
+        { "6","3:30 - 4:30","1:30 - 1:45","60-75 minutes (15-20 mixed)","40-60 minutes","20-30 minutes (optional)","2 of 10-20 minutes","3 of 10-20 minutes","1 of 20-30 minutes (optional)"},
+        { "7","8:45 - 10:00","1:15 - 1:45","40-60 minutes (10-15 mixed)","40-60 minutes","20-30 minutes (optional)","2 of 10-20 minutes","3 of 10-20 minutes","1 of 20-30 minutes (optional)"},
+        { "8","2:00 - 3:00","40-60 minutes","40-60 minutes (10-15 mixed)","40-60 minutes","20-30 minutes (optional)","2 of 10-20 minutes","3 of 10-20 minutes","None"},
+        { "9","9:45 - 11:00","1:15 - 1:45","40-60 minutes (10-15 mixed)","40-60 minutes","20-30 minutes (optional)","2 of 10-20 minutes","3 of 10-20 minutes","1 of 20-30 minutes (optional)"},
+        { "10","3:30 - 4:30","60-90 minutes","60-75 minutes (15-20 mixed)","40-60 minutes","20-30 minutes (optional)","2 of 10-20 minutes","3 of 10-20 minutes","1 of 20-30 minutes (optional)"},
+        { "11","10:45 - 12:00","60-90 minutes","40-60 minutes (10-15 mixed)","40-60 minutes","20-30 minutes (optional)","2 of 10-20 minutes","3 of 10-20 minutes","1 of 20-30 minutes (optional)"},
+        { "12","4:00 - 6:30","60-75 minutes","60-75 minutes (10-15 mixed)","40-60 minutes","20-30 minutes (optional)","2 of 10-20 minutes","3 of 10-20 minutes","None"},
+        { "Event Week","Event","40-60 minutes","None","40-60 minutes","20-30 minutes (optional)","2 of 10-20 minutes","3 of 10-20 minutes","None"}
+    };
+
+}
+
 <h2>Training Plan</h2>
 <p>Weeks until RAAM Challenge - @raamCountdown</p>
 <p>Weeks until Inca Divide - @incaCountdown</p>
 
-<p>Read from Excel File?</p>
 
-<table>
+<h3>15 Week Century Plan</h3>
+<table class="table">
     <tr>
-        <th>Week</th>
-        <th>Day 1</th>
-        <th>Day 2</th>
-        <th>Day 3</th>
-        <th>Day 4</th>
-        <th>Day 5</th>
-        <th>Day 6</th>
-        <th>Day 7</th>
+        @foreach (string s in weekList)
+        {
+            <th>@s</th>
+        }
     </tr>
-    <tr>
-        <td>1</td>
-        <td>Long Ride</td>
-        <td>Tempo Ride</td>
-        <td>Interval Ride</td>
-        <td>Recovery Ride</td>
-        <td>Strength</td>
-        <td>Strength</td>
-        <td>Rest</td>
-    </tr>
+    @for (int row = 0; row < fifteenWeekPlan.GetLength(0); row++)
+    {
+        <tr>
+            @for (int col = 0; col < fifteenWeekPlan.GetLength(1); col++)
+            {
+                <td>@fifteenWeekPlan[row, col]</td>
+            }
+        </tr>
+    }
+</table>
+<br />
+<br />
 
+<h3>8 Week Century Improvement Plan</h3>
+<table class="table">
+    <tr>
+        @foreach (string s in weekList)
+        {
+            <th>@s</th>
+        }
+    </tr>
+    @for (int row = 0; row < eightWeekPlan.GetLength(0); row++)
+    {
+        <tr>
+            @for (int col = 0; col < eightWeekPlan.GetLength(1); col++)
+            {
+                <td>@eightWeekPlan[row, col]</td>
+            }
+        </tr>
+    }
+</table>
+<br />
+<br />
+
+<h3>12 Week Double Century Plan</h3>
+<table class="table">
+    <tr>
+        @foreach (string s in weekList)
+        {
+            <th>@s</th>
+        }
+    </tr>
+    @for (int row = 0; row < twelveWeekPlan.GetLength(0); row++)
+    {
+        <tr>
+            @for (int col = 0; col < twelveWeekPlan.GetLength(1); col++)
+            {
+                <td>@twelveWeekPlan[row, col]</td>
+            }
+        </tr>
+    }
 </table>
