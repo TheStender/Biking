@@ -6,7 +6,9 @@
 @{
     DateTime raamChallengeDate = new DateTime(2020, 3, 28);
     DateTime almanzoDate = new DateTime(2020, 5, 2);
+    DateTime transAmDate = new DateTime(2020, 6, 6);
     DateTime mn650Date = new DateTime(2020, 6, 19);
+    DateTime steensDate = new DateTime(2020, 7, 5);
     DateTime damnDate = new DateTime(2020, 8, 3);
     DateTime hoodooDate = new DateTime(2020, 8, 23);
     DateTime incaDivideDate = new DateTime(2020, 8, 14);
@@ -14,7 +16,9 @@
 
     var raamCountdown = Math.Abs(Math.Floor((DateTime.Today - raamChallengeDate).TotalDays / 7));
     var almanzoCountdown = Math.Abs(Math.Floor((DateTime.Today - almanzoDate).TotalDays / 7));
+    var transAmCountdown = Math.Abs(Math.Floor((DateTime.Today - transAmDate).TotalDays / 7));
     var mn650Countdown = Math.Abs(Math.Floor((DateTime.Today - mn650Date).TotalDays / 7));
+    var steensCountdown = Math.Abs(Math.Floor((DateTime.Today - steensDate).TotalDays / 7));
     var damnCountdown = Math.Abs(Math.Floor((DateTime.Today - damnDate).TotalDays / 7));
     var hoodooCountdown = Math.Abs(Math.Floor((DateTime.Today - hoodooDate).TotalDays / 7));
     var incaCountdown = Math.Abs(Math.Floor((DateTime.Today - incaDivideDate).TotalDays / 7));
@@ -121,11 +125,13 @@
     }
 }
 
-<h2>Basic Training Guide - Use only for a basis of training</h2>
-<p><strong>Distances over 200 miles require a personalized training plan</strong></p>
+<h2>Basic Training Guide</h2>
+<p><strong>Only meant for basic guide - Distances over 200 miles require a personalized training plan</strong></p>
 <p>RAAM Plan: @getPlanVerbiage(raamCountdown)</p>
 <p>Almanzo Plan: @getPlanVerbiage(almanzoCountdown)</p>
+<p>TransAm Plan: @getPlanVerbiage(transAmCountdown)</p>
 <p>MN 650 Plan: @getPlanVerbiage(mn650Countdown)</p>
+<p>Steens Plan: @getPlanVerbiage(steensCountdown)</p>
 <p>DaMN Plan: @getPlanVerbiage(damnCountdown)</p>
 <p>HooDoo 500 Plan: @getPlanVerbiage(hoodooCountdown)</p>
 <p>Inca Divide Plan: @getPlanVerbiage(incaCountdown)</p>
