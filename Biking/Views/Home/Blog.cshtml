@@ -1,11 +1,37 @@
-﻿
+﻿@model BlogModel
 @{
     ViewData["Title"] = "Blog";
 }
 
 <h2>Blog/Ride Log</h2>
 
+<h3>Enter Rides and Mileage Here</h3>
 
+@using (Html.BeginForm())
+{
+    <fieldset>
+        <legend>Mileage and Date</legend>
+        <div>
+            @Html.LabelFor(BlogModel => BlogModel.Mileage)
+        </div>
+        <div>
+            @Html.TextBoxFor(BlogModel => BlogModel.Mileage)
+        </div>
+        <div>
+            @Html.LabelFor(BlogModel => BlogModel.Date)
+        </div>
+        <div>
+            @Html.TextBoxFor(BlogModel => BlogModel.Date)
+        </div>
+
+        <input type="submit" value="Submit Mileage" />
+    </fieldset>
+}
+
+<h3>Mileage Here:</h3>
+
+<br />
+<br />
 <h4>How am I doing?</h4>
 <iframe height='160' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/1815338/activity-summary/c713ca7ea1c4376c1333f9a6869aceaba9e413c8'></iframe>
 <br />

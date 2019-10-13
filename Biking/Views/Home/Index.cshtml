@@ -2,7 +2,64 @@
     ViewData["Title"] = "Stender Biking";
 }
 
-<h1 class="text-center">Welcome to the home of Stender Biking</h1>
+<h1 class="text-center">Stender Biking</h1>
 
-<p>Here you find information on my training plan, various cycling routes, and my riding log</p>
 
+<div class="text-center">
+    <p><em>@displayQuote()</em></p>
+</div>
+
+<div>
+    <img src="@displayImage()" class="img-responsive" />
+</div>
+
+
+
+
+@{
+
+
+    string displayQuote()
+    {
+        string[] quotes =
+            {
+                "We all want to take this four lane highway, but we always step over the shovel. All I did was pick up that shovel and made my own path. – David Goggins",
+                "Greatness pulls mediocrity into the mud. Get out there and get after it. – David Goggins",
+                "Nobody cares what you did yesterday. What have you done today to better yourself?- David Goggins",
+                "Everybody wants a quick fix. You may get results, but they won’t be permanent. The permanent results come from you having to suffer. – David Goggins",
+                "It does not matter how slowly you go as long as you do not stop. - Confucius",
+                "Discipline equals freedom. - Jocko Willink",
+                "Don’t expect to be motivated every day to get out there and make things happen. You won’t be. Don’t count on motivation. Count on Discipline. - Jocko Willink",
+                "NO MORE. No more excuses. No more: “I’ll start tomorrow.” No more: “Just this once.” No more accepting the shortfalls of my own will. No more taking the easy road. No more bowing down to whatever unhealthy or unproductive thoughts float through my mind. - Jocko Willink",
+                "To bike, or not to bike: that is not a question.",
+                "When in doubt. Pedal it out."
+             };
+
+
+        Random rnd = new Random();
+        int randomQuote = rnd.Next(quotes.Length);
+
+        return $"{quotes[randomQuote]}";
+    }
+
+    string displayImage()
+    {
+        string[] imageList =
+        {
+            "/images/bike/campground.jpg",
+            "/images/bike/field.jpg",
+            "/images/bike/lake.jpg",
+            "/images/bike/river.jpg",
+            "/images/bike/ruins.jpg",
+            "/images/bike/stadium.jpg",
+            "/images/bike/swamp.jpg",
+            "/images/bike/swamp1.jpg"
+        };
+
+        Random rnd = new Random();
+        int randomImage = rnd.Next(imageList.Length);
+
+        return $"{imageList[randomImage]}";
+
+    }
+}
